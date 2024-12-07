@@ -1,0 +1,34 @@
+SELECT
+  adm.*,
+  icustays.stay_id AS icu_stay_id,
+  icustays.first_careunit AS icu_first_careunit,
+  icustays.intime AS icu_intime
+FROM (
+  SELECT
+    ed.*,
+    transfer.careunit AS admit_location,
+  FROM (
+    SELECT
+      ed.*,
+      transfer.careunit AS ed_location,
+      transfer.outtime AS ed_outtime
+    FROM
+      `physionet-data.mimic_ed.edstays` ed
+    LEFT JOIN
+      `physionet-data.mimic_core.transfers` transfer
+    ON
+      ed.hadm_id = transfer.hadm_id
+      AND transfer.careunit LIKE 'Emergency Department%'
+    QUALIFY
+      ROW_NUMBER() OVER (PARTITION BY ed.hadm_id ORDER BY transfer.outtime DESC) = 1 ) AS ed
+  LEFT JOIN
+    `physionet-data.mimic_core.transfers` transfer
+  ON
+    ed.hadm_id = transfer.hadm_id
+    AND transfer.intime = ed.ed_outtime) AS adm
+LEFT JOIN
+  `physionet-data.mimic_icu.icustays` icustays
+ON
+  adm.hadm_id = icustays.hadm_id
+QUALIFY
+  ROW_NUMBER() OVER (PARTITION BY adm.hadm_id ORDER BY icustays.intime ASC) = 1
