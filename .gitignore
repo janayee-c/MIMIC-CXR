@@ -1,4 +1,5 @@
 /images
 /models
-/NLP_processing
+/NLP_processing/BERTopic_Pneumonia_Intensity
+/NLP_processing/embeddings
 /severity_data
