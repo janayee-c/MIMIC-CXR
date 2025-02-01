@@ -4,5 +4,5 @@
 /NLP_processing/embeddings
 /severity_data
 
-/.conda
+/venv_310
 /.venv
