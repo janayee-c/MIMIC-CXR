@@ -1,8 +1,12 @@
 /images
 /models
 /NLP_processing/BERTopic_Pneumonia_Intensity
-/NLP_processing/embeddings
+
+/NLP_processing/embeddings/intensity_pneumonia/results
+/NLP_processing/bacterial_pneumonia
+
 /severity_data
 
 /venv_310
 /.venv
+
