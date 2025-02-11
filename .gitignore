@@ -1,6 +1,5 @@
 /images
 /models
-/NLP_processing/BERTopic_Pneumonia_Intensity
 
 /NLP_processing/embeddings/intensity_pneumonia/results
 /NLP_processing/bacterial_pneumonia
@@ -11,4 +10,5 @@
 /.venv
 
 /cohort_data
-
+/NLP_processing/BERTopic_Intensity/processed_NER_extracts
+/NLP_processing/raw_embeddings
