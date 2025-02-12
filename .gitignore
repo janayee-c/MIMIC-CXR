@@ -14,7 +14,7 @@
 /NLP_processing/BERTopic_Intensity/processed_NER_extracts
 /NLP_processing/raw_embeddings
 /GNN
-/NLP_processing/NER_embeddings
+/NLP_processing/NER_embeddings/bacterial/radgraph_embeddings.pt
 
 
 
