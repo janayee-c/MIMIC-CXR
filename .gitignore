@@ -1,11 +1,10 @@
 /images
 /models
+/severity_data 
 
 /NLP_processing/embeddings/intensity_pneumonia/results
-/NLP_processing/NER_embeddings/bacterial
-/NLP_processing/bacterial_pneumonia
-
-/severity_data
+/NLP_processing/NER_embeddings/bacterial/radgraph_embeddings.pt
+/NLP_processing/NER_embeddings/bacterial/radgraph_with_embeddings.csv
 
 /.venv_310 
 /.venv
@@ -14,7 +13,6 @@
 /NLP_processing/BERTopic_Intensity/processed_NER_extracts
 /NLP_processing/raw_embeddings
 /GNN
-/NLP_processing/NER_embeddings/bacterial/radgraph_embeddings.pt
 
 
 
