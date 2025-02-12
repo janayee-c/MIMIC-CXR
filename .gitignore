@@ -3,8 +3,8 @@
 /severity_data 
 
 /NLP_processing/embeddings/intensity_pneumonia/results
-/NLP_processing/NER_embeddings/bacterial/radgraph_embeddings.pt
-/NLP_processing/NER_embeddings/bacterial/radgraph_with_embeddings.csv
+/NLP_processing/NER_embeddings/pneumonia_type/radgraph_embeddings.pt
+/NLP_processing/NER_embeddings/pneumonia_type/radgraph_with_embeddings.csv
 
 /.venv_310 
 /.venv
