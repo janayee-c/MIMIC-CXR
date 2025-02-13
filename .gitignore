@@ -13,6 +13,6 @@
 /NLP_processing/BERTopic_Intensity/processed_NER_extracts
 /NLP_processing/raw_embeddings
 /GNN
+/NLP_processing/BERTopic_Intensity/merged_intensity_image_radgraph_embeddings.csv
 
-
-
+/Users/JanayeCheong/Documents/DATATHON/nusdatathon2024/NLP_processing/BERTopic_Intensity/merged_intensity_image_radgraph_embeddings.csv
