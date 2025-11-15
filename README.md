@@ -1,10 +1,11 @@
 # 🫁 MIMIC-CXR Multimodal Pneumonia Severity Prediction Pipeline
 
 *A clinical ML pipeline combining radiomics, image embeddings, and natural-language representations for ICU pneumonia severity classification.*
+*Produced in collaboration with Data Scientist and Head and Neck Surgeon, Dr. Nicholas Shannon @ https://github.com/nbshannon. *
 
 ---
 
-## 🧩 **1. Problem Statement**
+## Problem Statement**
 
 Pneumonia is one of the most common ICU admissions, and severity assessment typically depends on radiologist interpretation of chest-x-rays (CXR) or CT scans. In real clinical workflows, this process may be:
 
@@ -23,31 +24,31 @@ This system aims to provide **early, automated**, and **interpretable** predicti
 
 ---
 
-## 🌐 **2. Domain Space Overview**
+## **2. Domain Space Overview**
 
 This project integrates multiple technical and clinical domains:
 
-### 🩺 **Clinical Imaging**
+###**Clinical Imaging**
 
 * CXR & CT interpretation
 * Lesion location & density
 * Radiomics quantification (GLCM, GLRLM, GLSZM)
 * Mask-based ROI extraction
 
-### 🤖 **Medical NLP**
+### **Medical NLP**
 
 * Extraction of radiology “Findings” & “Impressions”
 * RadGraph-XL entity + relation mapping
 * Transformers for clinical semantic embeddings
 * BERTopic clustering for global anatomical patterns
 
-### 📊 **Predictive Modeling**
+### **Predictive Modeling**
 
 * Classical models (XGBoost, SVM) using multimodal features
 * Imbalanced ICU labels (severity, ventilation, mortality)
 * Feature-level fusion and model-level fusion
 
-### 🏥 **Critical Care**
+### **Critical Care**
 
 * MIMIC-CXR & MIMIC-IV cohort structure
 * ICU metadata: LOS, mortality, ventilation duration, clinical severity
@@ -55,7 +56,7 @@ This project integrates multiple technical and clinical domains:
 
 ---
 
-## 🛠️ **3. Skills & Abilities Demonstrated**
+## **3.Concepts Utilized **
 
 ### **Machine Learning & Computer Vision**
 
@@ -117,7 +118,7 @@ This project integrates multiple technical and clinical domains:
 
 ---
 
-## 🏗️ **5. Tech Stack**
+## **5. Tech Stack**
 
 ### **Languages**
 
@@ -142,7 +143,7 @@ This project integrates multiple technical and clinical domains:
 
 ---
 
-## 📊 **6. Pipeline Architecture**
+## **6. Pipeline Architecture**
 
 ### **Step 1 — Radiology Report Processing**
 
@@ -217,7 +218,7 @@ Outputs:
 
 ---
 
-## 📈 **7. Key Performance Results (KPRs)**
+## **7. Key Performance Results (KPRs)**
 
 
 
@@ -231,7 +232,7 @@ Outputs:
 
 ---
 
-## 🧬 **8. Future Extensions**
+## **8. Future Extensions**
 
 * Add structured EHR variables (SpO₂, labs, vitals)
 * Develop unified ResNet + Transformer fusion model
@@ -249,7 +250,7 @@ Outputs:
 
 ---
 
-## 📁 **9. Repository Structure (Actual Repo-Aligned)**
+## **9. Repository Structure (Actual Repo-Aligned)**
 
 ```
 MIMIC-CXR/
