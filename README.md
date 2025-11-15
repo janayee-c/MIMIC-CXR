@@ -1,11 +1,11 @@
 # 🫁 MIMIC-CXR Multimodal Pneumonia Severity Prediction Pipeline
 
 *A clinical ML pipeline combining radiomics, image embeddings, and natural-language representations for ICU pneumonia severity classification.*
-*This project, its design and implementation was spearheaded and produced in collaboration with Data Scientist and Head and Neck Surgeon, Dr. Nicholas Shannon; original and developing project research accredited tohttps://github.com/nbshannon. *
+This project, its design and implementation was spearheaded and produced in collaboration with Data Scientist and Head and Neck Surgeon, **Dr. Nicholas Shannon**; original and developing project research accredited tohttps://github.com/nbshannon.🩺 
 
 ---
 
-## **Problem Statement**
+## 🏥 **Problem Statement** 🏥
 
 Pneumonia is one of the most common ICU admissions, and severity assessment typically depends on radiologist interpretation of chest-x-rays (CXR) or CT scans. In real clinical workflows, this process may be:
 
