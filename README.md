@@ -103,7 +103,7 @@ This project integrates multiple technical and clinical domains:
 
 ---
 
-## 🙋‍♀️ **4. User Stories**
+## **4. User Stories**
 
 ### **Clinical Users**
 
@@ -280,24 +280,3 @@ MIMIC-CXR/
 *The full ResNet image-encoding pipeline used in the datathon is proprietary to the NUS research team and is not included.*
 
 ---
-
-## ✅ **10. Summary**
-
-This project is a **clinically grounded**, **technically sophisticated**, and **fully multimodal ML pipeline** built on real ICU data. It demonstrates:
-
-* advanced NLP (RadGraph + BERTopic)
-* radiomics extraction
-* multimodal fusion modeling
-* classical ML baselines
-* clean data engineering & reproducibility
-
-It is a strong example of your ability to architect end-to-end clinical machine learning systems with real-world constraints.
-
----
-
-If you want, I can also:
-
-✅ Add a *Mermaid diagram*
-✅ Generate a *short GitHub-optimized version*
-✅ Auto-extract your file names to fill in the README table
-Just tell me!
