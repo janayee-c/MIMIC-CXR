@@ -5,10 +5,10 @@ This project, its design and implementation was spearheaded and produced in coll
 
 Project initiative was developed and presented at the IMAGINE AI 2024 Conference by National University Singapore Medical Datathon toward Healthcare Artificial Intelligence.
 
-More information can be found here: 
-https://medicine.nus.edu.sg/dbmi/events/imagine-ai-2024/
-https://sg-ai.org/
-https://www.channelnewsasia.com/watch/new-centre-ai-in-public-health-be-launched-early-next-year-4789486
+Information on the event and its affiliates can be found here: 
+- 🔗 https://medicine.nus.edu.sg/dbmi/events/imagine-ai-2024/
+- 🔗 https://sg-ai.org/
+- 🔗 https://www.channelnewsasia.com/watch/new-centre-ai-in-public-health-be-launched-early-next-year-4789486
 
 ---
 
